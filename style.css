@@ -1,3 +1,13 @@
+/*custom styles*/
+.item__caption {
+	background-color: #48B48F;
+	padding: 10px 25px;
+	color: white;
+}
+
+
+/*Default simple styles*/
+
 #rwe-gallery img {
 	box-shadow: none;
 }
@@ -225,7 +235,7 @@ span.rwe-desc-label {
 }
 .view-wishlist-page .item-price {
 	width: 100px;
-} 
+}
 .view-wishlist-page .item.qty {
 	width: 50px;
 }

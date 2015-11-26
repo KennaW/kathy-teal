@@ -1,1 +1,1 @@
-<li><a href="[category_url]">[category_thumbnail]<br /><span>[category_name]</span></a></li>
+<li><a href="[category_url]">[category_thumbnail]<br /><span class="item__caption">[category_name]</span></a></li>
