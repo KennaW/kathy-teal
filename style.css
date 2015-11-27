@@ -3,8 +3,19 @@
 	background-color: #48B48F;
 	padding: 10px 25px;
 	color: white;
+	position: relative;
+	top: -20px;
 }
 
+.list__item:hover {
+	opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+		-moz-transition: all 0.1s;  /* FF4+ */
+    -o-transition: all 0.1s;  /* Opera 10.5+ */
+    -webkit-transition: all 0.1s;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.1s;  /* IE10? */
+    transition: all 0.1s;
+}
 
 /*Default simple styles*/
 
@@ -14,16 +25,16 @@
 #rwe-gallery li:before {
 	display:none;
 }
-.rwe-size-100 li a {
+/*.rwe-size-100 li a {
 	width: 110px;
 }
 .rwe-size-100 li a img {
 	width: 100px;
-}
-.rwe-size-200 li a {
+}*/
+.rwe-size-100 li a {
 	width: 210px;
 }
-.rwe-size-200 li a img {
+.rwe-size-100 li a img {
 	width: 200px;
 }
 #rwe-gallery ul.rwe-breadcrumb {
