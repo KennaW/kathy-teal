@@ -1,4 +1,10 @@
 /*custom styles*/
+#view-wishlist {
+	position: relative;
+	float: right;
+	margin: 10px;
+}
+
 .category__caption {
 	background-color: #48B48F;
 	padding: 10px 25px;
@@ -19,6 +25,9 @@ button {
 	background-color: #48B48F;
 	color: white;
 	border: none;
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
 }
 
 .category:hover {
@@ -29,6 +38,15 @@ button {
     -webkit-transition: all 0.1s;  /* Saf3.2+, Chrome */
     -ms-transition: all 0.1s;  /* IE10? */
     transition: all 0.1s;
+}
+
+.rwe-item-tags a{
+	color: #555;
+	-moz-transition: all 0.1s;  /* FF4+ */
+	-o-transition: all 0.1s;  /* Opera 10.5+ */
+	-webkit-transition: all 0.1s;  /* Saf3.2+, Chrome */
+	-ms-transition: all 0.1s;  /* IE10? */
+	transition: all 0.1s;
 }
 
 /*Default simple styles*/
@@ -197,11 +215,7 @@ span.rwe-desc-label {
 #rwe-gallery ul.rwe-gallery-thumbnails li:last-child a {
 	margin-right: 0;
 }
-#view-wishlist {
-	position: relative;
-	float: right;
-	margin: 4px;
-}
+
 #wishlist {
 	position: absolute;
 	right: 0;
