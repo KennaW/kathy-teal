@@ -1,5 +1,5 @@
 /*custom styles*/
-.item__caption {
+.category__caption {
 	background-color: #48B48F;
 	padding: 10px 25px;
 	color: white;
@@ -7,7 +7,21 @@
 	top: -20px;
 }
 
-.list__item:hover {
+.listitem a{
+	color: #555;
+}
+
+.listitem:hover {
+	color: #48B48F;
+}
+
+button {
+	background-color: #48B48F;
+	color: white;
+	border: none;
+}
+
+.category:hover {
 	opacity: 0.7;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 		-moz-transition: all 0.1s;  /* FF4+ */
@@ -94,7 +108,7 @@ input#rwe-search {
 	display: block;
 	padding: 10px 10px 5px 10px;
 	margin: 0;
-	color: #555;
+
 	text-decoration: none;
 }
 #rwe-gallery li a:hover img {
