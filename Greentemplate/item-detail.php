@@ -2,7 +2,7 @@
 
 	<div class="rwe-top-box">
 
-		<ul class="rwe-breadcrumb"><li><a href="[gallery_url]">[gallery_name]</a></li><li>//</li><li><a href="[item_category_url]">[item_category_name]</a></li></li><li>//<li>[item_name]</li></ul>
+		<ul class="rwe-breadcrumb"><li><a href="[gallery_url]">[gallery_name]</a></li><li>&#183;</li><li><a href="[item_category_url]">[item_category_name]</a></li></li><li>&#183;<li>[item_name]</li></ul>
 
 		<div id="view-wishlist">[view_wishlist][wishlist]</div>
 
@@ -20,7 +20,7 @@
 
 		<div class="rwe-photo-container">[item_photo]</div>
 
-
+		<ul class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">[item_thumbnails]</ul>
 
 	</div>
 
@@ -28,7 +28,7 @@
 
 		<div class="rwe-description">
 
-			<p class="rwe-item-description__italics">
+			<p>
 				[item_description]
 			</p>
 			<p>
@@ -40,20 +40,19 @@
 		</div>
 
 		<ul class="rwe-item-tags">
-				<li class="rwe-tag-label"></li>[item_tags]
+				<li class="rwe-tag-label">Tags:</li>[item_tags]
 		</ul>
+
 		[add_to_wishlist]
 
 		[wishlist_notice]
-		<ul class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">[item_thumbnails]</ul>
 
-
-
-	</div>
-<!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
 		[related_items]
 
 		[kit_items]
+
+	</div>
+
 	<div style="clear:both;"></div>
 
 </div>
