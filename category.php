@@ -2,7 +2,7 @@
 
 	<div class="rwe-top-box">
 
-		<ul class="rwe-breadcrumb"><li><a href="[gallery_url]">[gallery_name]</a></li><li>//</li><li>[category_name]</li></ul>
+		<ul class="rwe-breadcrumb" id="category"><li><a href="[gallery_url]">[gallery_name]</a></li><li>//</li><li>[category_name]</li></ul>
 
 		<div id="view-wishlist">[view_wishlist][wishlist]</div>
 
