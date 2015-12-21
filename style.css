@@ -17,11 +17,9 @@ gray (rgb, 153,153,153) #999999
 }
 
 .category__caption {
-	background-color: #999;
-	padding: 10px 25px;
-	color: white;
-	position: relative;
-	top: -20px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 24px;
 }
 
 .listitem a{
@@ -41,6 +39,10 @@ button {
 button.add-to-wishlist{
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+button.view-wishlist{
+	font-style:italic;
 }
 
 .category:hover {
@@ -80,10 +82,10 @@ button.add-to-wishlist{
 .rwe-size-100 li a img {
 	width: 100px;
 }*/
-.rwe-size-100 li a {
+.rwe-size-200 li a {
 	width: 210px;
 }
-.rwe-size-100 li a img {
+.rwe-size-200 li a img {
 	width: 200px;
 }
 
@@ -270,7 +272,7 @@ span.rwe-desc-label {
 	top: 45px;
 	width: 300px;
 	padding: 10px;
-	background-color: #eee;
+	background-color: white;
 	border: 1px solid #ccc;
 	z-index: 1000;
 }
