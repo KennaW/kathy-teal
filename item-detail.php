@@ -32,6 +32,9 @@
 				[item_description]
 			</p>
 			<p>
+				<span class="rwe-desc-label">Quantity:</span> [item_quantity]
+			</p>
+			<p>
 				<span class="rwe-desc-label">Dimensions:</span> [item_dimensions]
 			</p>
 
@@ -50,10 +53,11 @@
 
 
 	</div>
-<!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
-		[related_items]
-
 		[kit_items]
-	<div style="clear:both;"></div>
 
+	<div style="clear:both;"></div>
+<!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
+	<div class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">
+		[related_items]
+	</div>
 </div>
