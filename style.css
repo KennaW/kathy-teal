@@ -18,8 +18,7 @@ gray (rgb, 153,153,153) #999999
 
 .category__caption {
 	text-transform: uppercase;
-	font-style: italic;
-	font-size: 24px;
+	/*font-size: 24px;*/
 }
 
 .listitem a{
@@ -68,6 +67,10 @@ button.view-wishlist{
 	font-style:italic;
 }
 
+.image-detail-height{
+	min-height: 500px;
+}
+
 /*Default simple styles*/
 
 #rwe-gallery img {
@@ -78,6 +81,9 @@ button.view-wishlist{
 }
 
 /*Things are 200px now*/
+.rwe-size-200 {
+	text-align:center;
+}
 .rwe-size-200 li a {
 	height: 210px;
 }
@@ -87,10 +93,9 @@ button.view-wishlist{
 
 ul.rwe-size-200 li.listitem
  {
-    /*border: 1px solid #E5E5E5 !important;*/
     padding: 10px !important;
     margin: 0 -1px -1px 0 !important;
-    width: 250px !important;
+    width: 200px !important;
     height: 300px !important;
 }
 
@@ -107,10 +112,7 @@ ul.rwe-size-200 li.listitem
 	padding: 0 5px 0 5px;
 	margin: 0;
 }
-/*#rwe-gallery .rwe-breadcrumb li a:hover {
-	text-decoration: underline;
 
-}*/
 
 /****Breadcrumbs****/
 /*Item breadcrumbs*/
@@ -217,6 +219,10 @@ input#rwe-search {
 #rwe-gallery .rwe-item-photo {
 	width: auto;
 	max-height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 span.rwe-desc-label {
 	font-weight: bold;

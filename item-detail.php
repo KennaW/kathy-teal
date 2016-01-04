@@ -16,45 +16,39 @@
 
 	[error]
 
-	<div class="rwe-item-images">
-
-		<div class="rwe-photo-container">[item_photo]</div>
-
-
-
-	</div>
-
-	<div class="rwe-sidebox">
-
-		<div class="rwe-description">
-
-			<p class="rwe-item-description__italics">
-				[item_description]
-			</p>
-			<p>
-				<span class="rwe-desc-label">Quantity:</span> [item_quantity]
-			</p>
-			<p>
-				<span class="rwe-desc-label">Dimensions:</span> [item_dimensions]
-			</p>
-
-			[formatted_price]
-
+	<div class="image-detail-height">
+		<div class="rwe-item-images">
+			<div class="rwe-photo-container">[item_photo]</div>
 		</div>
 
-		<ul class="rwe-item-tags">
-				<li class="rwe-tag-label"></li>[item_tags]
-		</ul>
-		[add_to_wishlist]
+		<div class="rwe-sidebox">
 
-		[wishlist_notice]
-		<ul class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">[item_thumbnails]</ul>
+			<div class="rwe-description">
 
+				<p class="rwe-item-description__italics">
+					[item_description]
+				</p>
+				<p>
+					<span class="rwe-desc-label">Quantity:</span> [item_quantity]
+				</p>
+				<p>
+					<span class="rwe-desc-label">Dimensions:</span> [item_dimensions]
+				</p>
 
+				[formatted_price]
 
-	</div>
+			</div>
+
+				<ul class="rwe-item-tags">
+						<li class="rwe-tag-label"></li>[item_tags]
+				</ul>
+				[add_to_wishlist]
+
+				[wishlist_notice]
+				<ul class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">[item_thumbnails]</ul>
+			</div>
 		[kit_items]
-
+	</div>
 	<div style="clear:both;"></div>
 <!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
 	<div class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">

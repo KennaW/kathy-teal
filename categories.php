@@ -13,7 +13,7 @@
 	</div>
 
 	[error]
-
+<div class="LOOKATME">
 	<ul class="rwe-size-[category_thumbnail_size]">[category_list]</ul>
-
+</div>
 </div>
