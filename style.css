@@ -7,7 +7,9 @@ dark blue (rgb, 0,0, 66) #000042
 gray (rgb, 153,153,153) #999999
 
 */
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans';
+}
 
 /*custom styles*/
 #view-wishlist {
@@ -298,6 +300,11 @@ span.rwe-desc-label {
 	margin: 10px 0 10px 10px;
 	float: right;
 }
+
+#wishlistsubmit {
+	text-transform: capitalize;
+}
+
 #wishlistsubmit label {
 	float: left;
 	width: 200px;

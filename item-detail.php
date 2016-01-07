@@ -50,8 +50,8 @@
 		[kit_items]
 	<!-- </div> -->
 	<div style="clear:both;"></div>
-<!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
-	<div class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">
+<!-- rwe-gallery-thumbnails  -->
+	<div class="rwe-size-[item_thumbnail_size]">
 		[related_items]
 	</div>
 </div>
