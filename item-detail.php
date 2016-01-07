@@ -16,7 +16,7 @@
 
 	[error]
 
-	<div class="image-detail-height">
+	<!-- <div class="image-detail-height"> -->
 		<div class="rwe-item-images">
 			<div class="rwe-photo-container">[item_photo]</div>
 		</div>
@@ -48,7 +48,7 @@
 				<ul class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">[item_thumbnails]</ul>
 			</div>
 		[kit_items]
-	</div>
+	<!-- </div> -->
 	<div style="clear:both;"></div>
 <!-- <img src="coolrentals.wpengine.com/wp-content/rw-elephant-templates/bar.png"/> -->
 	<div class="rwe-gallery-thumbnails rwe-size-[item_thumbnail_size]">
