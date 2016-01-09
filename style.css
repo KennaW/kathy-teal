@@ -8,7 +8,11 @@ gray (rgb, 153,153,153) #999999
 
 */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
+}
+
+article h2 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*custom styles*/
@@ -83,22 +87,28 @@ button.view-wishlist{
 }
 
 /*Things are 200px now*/
-.rwe-size-200 {
+/*.rwe-size-200 {
 	text-align:center;
 }
 .rwe-size-200 li a {
 	height: 210px;
-}
+}*/
 .rwe-size-200 li a img {
-	height: 200px;
+	max-height: 200px;
+	width: auto;
 }
 
-ul.rwe-size-200 li.listitem
+/*ul.rwe-size-200 li.listitem
  {
     padding: 10px !important;
     margin: 0 -1px -1px 0 !important;
     width: 200px !important;
     height: 300px !important;
+}*/
+
+.rwe-size-100 li a img{
+	max-height: 100px;
+	width: auto;
 }
 
 #rwe-gallery ul.rwe-breadcrumb {
@@ -300,9 +310,9 @@ span.rwe-desc-label {
 	margin: 10px 0 10px 10px;
 	float: right;
 }
-
-#wishlistsubmit {
-	text-transform: capitalize;
+/*hide the 'bar'*/
+.ui-widget-content {
+	border:0
 }
 
 #wishlistsubmit label {
@@ -310,7 +320,12 @@ span.rwe-desc-label {
 	width: 200px;
 	padding: 3px 10px;
 	margin: 3px;
+	text-transform: uppercase;
 }
+/*#wishlistsubmit label[for=event_date] {
+	text-transform:uppercase;
+}*/
+
 #wishlistsubmit input#event_date {
 	width: 120px;
 }
