@@ -111,6 +111,10 @@ button.view-wishlist{
 	width: auto;
 }
 
+.rwe-size-100 h3, .rwe-size-200 h3 {
+	font-size: 1.5em;
+}
+
 #rwe-gallery ul.rwe-breadcrumb {
 	margin: 10px 0 5px;
 	float: left;
@@ -378,4 +382,11 @@ span.rwe-desc-label {
 #wishlist-contents span {
 	margin: 0 0.5em;
 	display: inline-block;
+}
+
+.post-content h2 {
+	color: #494949;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	font-style: normal;
 }
