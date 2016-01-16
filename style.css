@@ -230,7 +230,11 @@ input#rwe-search {
 	min-width: 200px;
 }
 #rwe-gallery .rwe-photo-container {
-	width: 100%;
+	/*width: 100%;*/
+	display: table-cell;
+	vertical-align: middle;
+	height: 500px;
+	width: 500px;
 }
 #rwe-gallery .rwe-item-photo {
 	width: auto;
@@ -387,6 +391,7 @@ span.rwe-desc-label {
 .post-content h2 {
 	color: #494949;
 	font-family: 'Open Sans', sans-serif;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-style: normal;
+	font-size: 1em;
 }

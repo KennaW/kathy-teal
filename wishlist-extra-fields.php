@@ -1,4 +1,4 @@
 <p>
   <label for="venue">venue</label>
-  <input type="venue" type= "text" value="">
+  <input id="venue" name="venue" type="text" value="">
 </p>
