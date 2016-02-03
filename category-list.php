@@ -1,1 +1,1 @@
-<li class="listitem"><a class="category" href="[category_url]"><img src="/wp-content/rw-elephant-templates/img/[category_id].jpg" /><br /><span class="category__caption">[category_name]</span></a></li>
+<li class="listitem"><a class="category" href="[category_url]"><div style="height: [category_thumbnail_size]px; width: 300px; background-image: url(/wp-content/rw-elephant-templates/img/[category_id].jpg)" ></div><br /></a></li>

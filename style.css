@@ -1,18 +1,21 @@
 /*####FONTS####*/
-/*'Playfair Display'*/
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic);
-/*
-#####COLORS#####
-dark blue (rgb, 0,0, 66) #000042
-gray (rgb, 153,153,153) #999999
+/*Raleway*/
+/*#####COLORS#####
+dark #6C6965
+med #C9C9C9
+light #ECEAE8
+blue #889CA0
+green #677848
+yellow #F0DAA3
+*/
 
 */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 article h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 /*custom styles*/
@@ -36,7 +39,6 @@ article h2 {
 }
 
 button {
-	background-color: #000042;
 	color: white;
 	border: none;
 }
@@ -50,14 +52,8 @@ button.view-wishlist{
 	font-style:italic;
 }
 
-.category:hover {
-	opacity: 0.7;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
-		-moz-transition: all 0.1s;  /* FF4+ */
-    -o-transition: all 0.1s;  /* Opera 10.5+ */
-    -webkit-transition: all 0.1s;  /* Saf3.2+, Chrome */
-    -ms-transition: all 0.1s;  /* IE10? */
-    transition: all 0.1s;
+.category div:hover {
+	background-position: -300px;
 }
 
 .rwe-item-tags a{
@@ -161,7 +157,7 @@ button.view-wishlist{
 }
 #rwe-search-form {
 	float: right;
-	margin: 2px;
+	margin: 10px;
 }
 input#rwe-search {
 	padding-left: 10px;
@@ -198,10 +194,6 @@ input#rwe-search {
 	border: 1px solid #ccc;
 }
 
-#rwe-gallery .rwe-item-images {
-	width: 55%;
-	float: left;
-}
 #rwe-gallery .rwe-sidebox {
 	min-width: 180px;
 	max-width: 40%;
@@ -229,8 +221,11 @@ input#rwe-search {
 #rwe-gallery .rwe-item-images {
 	min-width: 200px;
 }
+#rwe-gallery .rwe-item-images {
+	width: 55%;
+	float: left;
+}
 #rwe-gallery .rwe-photo-container {
-	/*width: 100%;*/
 	display: table-cell;
 	vertical-align: middle;
 	height: 500px;
@@ -320,19 +315,15 @@ span.rwe-desc-label {
 }
 /*hide the 'bar'*/
 .ui-widget-content {
-	border:0
+	border: 0;
 }
 
 #wishlistsubmit label {
-	float: left;
 	width: 200px;
 	padding: 3px 10px;
 	margin: 3px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
-/*#wishlistsubmit label[for=event_date] {
-	text-transform:uppercase;
-}*/
 
 #wishlistsubmit input#event_date {
 	width: 120px;
@@ -390,7 +381,7 @@ span.rwe-desc-label {
 
 .post-content h2 {
 	color: #494949;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	font-style: normal;
 	font-size: 1em;
